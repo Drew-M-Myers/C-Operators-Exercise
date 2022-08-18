@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+        private static double areaOfCircle;
+
         public static void Main(string[] args)
         {
 
@@ -22,6 +24,13 @@
             Console.WriteLine($"The area of a circle with {radius} is {AreaOfCircle}");
         }
 
+        public static double AreaOfCircle(double radius)
+        {
+            double areaOfCircle = (Math.PI * radius * radius);
+
+            return radius;
+
+        }
 
 
     }
